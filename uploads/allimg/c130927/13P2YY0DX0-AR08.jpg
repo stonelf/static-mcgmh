@@ -1,0 +1,63 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+	菩提洲_希阿荣博堪布菩提之路
+</title>
+	<style type="text/css">
+		body
+		{
+			background-image: url(../images/images2/page_bg.gif);
+		}
+		</style>
+
+	<script language="JavaScript" type="text/javascript">
+		function getQuery(name) {
+			var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+			var r = window.location.search.substr(1).match(reg);
+			if (r != null) return unescape(r[2]); return null;
+		}
+
+		window.onload = function() {
+			var pic = getQuery("pic");
+			var picobj = document.getElementById("pic_obj");
+			if (pic && pic + "" != "") {
+				picobj.src = pic;
+			}
+		}
+	</script>
+
+</head>
+<body>
+	<table border="0" align="center" cellpadding="0" cellspacing="0">
+		<tr>
+			<td height="4" colspan="3" bgcolor="#5A1408">
+			</td>
+		</tr>
+		<tr>
+			<td width="4" bgcolor="#5A1408">
+			</td>
+			<td align="center" valign="top">
+				<img id="pic_obj" src="../images/images2/page_bg.gif">
+			</td>
+			<td width="4" bgcolor="#5A1408">
+			</td>
+		</tr>
+		<tr>
+			<td height="4" colspan="3" bgcolor="#5A1408">
+			</td>
+		</tr>
+	</table>
+	
+<!--baidu-->
+
+<script type="text/javascript">
+	var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F93ce2df5b7db086fe0920af05a1f0cd0' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<!--/baidu-->
+
+</body>
+</html>
