@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+#Content_box {
+	padding:20px;
+	}
+#Title {
+	text-align:center;
+	height:36px;
+	line-height:36px;
+	color:#990000;
+	}
+#Title h3 {
+	color:#000;
+	font-size:25px;
+	}
+#time_author {
+	text-align:center;
+	color:#666;
+	line-height:24px;
+	}
+#time_author span {
+	margin:0px 3px;
+	}
+#time_author a,#Favorites a {
+	text-decoration:none;
+	}
+#time_author a:hover,#Favorites a:hover {
+	text-decoration:underline;
+	}
+#Abstract {
+	line-height:20px;
+	padding:5px;
+	font-size:14px;
+	color:#333;
+	margin:10px auto;
+	text-indent:2em;
+	background-color:#FFFFCC;
+	border:1px solid #FF9900;
+	}
+#Content {
+	line-height:22px;
+	font-size:12px;
+	margin:10px auto;
+	}
+#Favorites {
+	width:100%;
+	padding:4px 0;
+	}
+#Favorites span {
+	float:right;
+	}
+#Favorites a img {
+	vertical-align:middle;
+	}
+#Content p {
+	padding:5px 0;
+	}
+#googlead {
+	width:100%;
+	text-align:center;
+	height:60px;
+	}
+#Comment p {
+	line-height:24px;
+	}
+#Comment textarea {
+	font-size:12px;
+	padding:4px;
+	height:60px;
+	width:560px;
+	display:block;
+	}
+#Comment_title {
+	height:24px;
+	line-height:24px;
+	font-size:14px;
+	padding:0px 12px;
+	font-weight:bold;
+	background-color:#EBEEF1;
+	border-top:1px solid #ccc;
+	}
+#Comment_title span {
+	float:right;
+	font-size:12px;
+	font-weight:normal;
+	}
