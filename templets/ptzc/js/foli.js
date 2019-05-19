@@ -809,7 +809,7 @@ function CalConv(){
 	if(z.extraInfo2)
 		result+="，"+z.extraInfo2;
 		
-	var e=document.getElementById("lunarSPAN")
+	var e=document.getElementById("lunarSPAN")|document.getElementById("top_right_time");
 	if(!e){
 		document.write(result)
 	}else{
