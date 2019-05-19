@@ -794,7 +794,6 @@ var calendar = {
 function CalConv(){
 	var d=new Date();
 	lunar=calendar.solar2lunar()
-	console.log(lunar)
 	var result="佛历";//佛历按4月初八过一年
 	if(lunar.lMonth>4||lunar.lMonth==4 &&(lunar.lDay>7||lunar.isLeap)){ 
 		result+=(lunar.lYear+544)+"年 ";
